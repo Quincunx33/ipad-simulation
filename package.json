@@ -1,0 +1,13 @@
+{
+  "name": "ipad-simulation-root",
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "dev": "npm run dev --prefix app",
+    "build": "npm run build --prefix app",
+    "lint": "npm run lint --prefix app"
+  }
+}
